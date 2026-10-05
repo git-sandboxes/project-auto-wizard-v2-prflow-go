@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "lastUpdated": "2026-10-05T15:15:08Z",
+    "currentVersion": "1.3.0",
+    "projectTypes": [
+      "go"
+    ],
+    "totalReleases": 1
+  },
+  "releases": [
+    {
+      "version": "1.3.0",
+      "project_types": [
+        "go"
+      ],
+      "date": "2026-10-05",
+      "pr_number": 11,
+      "raw_summary": "### ✨ 기능\n- add login page\n\n### 🐛 수정\n- add login\n- handle null login\n\n### 📝 문서\n- update readme",
+      "parsed_changes": {
+        "feat": {
+          "title": "✨ 기능",
+          "items": [
+            "add login page"
+          ]
+        },
+        "fix": {
+          "title": "🐛 수정",
+          "items": [
+            "add login",
+            "handle null login"
+          ]
+        },
+        "docs": {
+          "title": "📝 문서",
+          "items": [
+            "update readme"
+          ]
+        }
+      },
+      "parse_method": "markdown"
+    }
+  ]
+}
