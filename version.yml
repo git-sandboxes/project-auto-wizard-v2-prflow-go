@@ -42,7 +42,7 @@ language: "ko" # message language: en | ko
 project_paths: # 타입별 프로젝트 폴더 (레포 루트 기준 상대경로)
   go: "." # go.mod
 metadata:
-  last_updated: "2026-10-05"
+  last_updated: "2026-10-05 15:38:47"
   last_updated_by: "Chuseok22"
   default_branch: "main"
   integration_date: "2026-10-05"
@@ -57,7 +57,7 @@ metadata:
       mode: "pr-flow" # pr-flow | trunk-based
     options:
       semver_auto: true
-      copilot_ai: false
+      copilot_ai: true
       release_automerge: false
       deploy_style: "simple" # simple | nginx | traefik | none (server deploy workflows)
 
