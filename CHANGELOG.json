@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-10-05T15:09:00Z",
+    "lastUpdated": "2026-10-05T15:13:44Z",
     "currentVersion": "1.3.0",
     "projectTypes": [
       "go"
@@ -15,7 +15,7 @@
       ],
       "date": "2026-10-05",
       "pr_number": 11,
-      "raw_summary": "### ✨ 기능\n- add login page\n\n### 🐛 수정\n- handle null login",
+      "raw_summary": "### ✨ 기능\n- add login page\n\n### 🐛 수정\n- add login\n- handle null login",
       "parsed_changes": {
         "feat": {
           "title": "✨ 기능",
@@ -26,6 +26,7 @@
         "fix": {
           "title": "🐛 수정",
           "items": [
+            "add login",
             "handle null login"
           ]
         }
