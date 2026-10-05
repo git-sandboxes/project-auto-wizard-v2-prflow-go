@@ -37,7 +37,6 @@ jobs:
       ISSUE_HELPER_MAX_BRANCH_LENGTH: "100"
       # Optional override of the commit message template (the default follows the workflow language):
       # ISSUE_HELPER_COMMIT_TEMPLATE: "${issueTitle} : feat : {description of the change} ${issueUrl}"
-      ISSUE_HELPER_COMMIT_TEMPLATE: "fix(#${issueNumber}): ${issueTitle}"
       ISSUE_HELPER_CREATE_BRANCH: "false"
       ISSUE_HELPER_BASE_BRANCH: "main"
     steps:
